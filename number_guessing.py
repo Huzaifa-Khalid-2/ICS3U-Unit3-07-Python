@@ -5,23 +5,26 @@
 # This function takes a random integer between 0-9
 # and tells the user if they guessed corretly
 
-import random
-
-
 def main():
-    # this function takes a random integer between 0-9
-    # and tells the user if they guessed corretly
+    # this function checks if you qualify to date my granddaughter
 
     # input
-    user_guess = int(input("Insert any number between 0-9 (integers): "))
-    number = random.randint(1, 9)
+    user_wealth = input("Are you rich?(yes or no): ")
+    user_looking = input("Are you good looking(yes or no): ")
+    print("")
 
     # process and output
-    print("")
-    if user_guess == number:
-        print("Hooray you guessed correctly !! :)")
+    if user_wealth == "yes" and user_looking == "yes":
+        print("You are accepted to date my grandchild.")
+        print("")
+    elif user_wealth == "no" or user_looking == "no":
+        print("Not accepted, come back when you get rich.")
+        print("")
     else:
-        print("Oh No!!! you guessed incorrectly :(")
+        print("Invalid input, try again.")
+        print("")
+
+    print("Thanks for checking.")
 
     print("\nDone.")
 
