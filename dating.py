@@ -15,10 +15,10 @@ def main():
 
     # process and output
     if user_wealth == "yes" and user_looking == "yes":
-        print("You are accepted to date my grandchild.")
+        print("You can date my grandchild.")
         print("")
     elif user_wealth == "no" or user_looking == "no":
-        print("Not accepted, come back when you get rich.")
+        print("Not accepted, come back when you get rich/handsom.")
         print("")
     else:
         print("Invalid input, try again.")
