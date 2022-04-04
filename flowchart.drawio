@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pBK1guH4bu_zmOCUXD5L" name="Top Down">
-        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="434" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,58 +16,59 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3" value="Get wealth" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="150" width="180" height="70" as="geometry"/>
+                    <mxGeometry x="350" y="130" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="12" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="12" target="60">
+                <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;startArrow=none;" parent="1" source="53" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Check if the user is handsome" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="342.5" y="410" width="156" height="120" as="geometry"/>
+                    <mxGeometry x="342" y="370" width="156" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="730" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="700" y="692.5" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="43" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="Get looks" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="330.5" y="270" width="180" height="70" as="geometry"/>
+                    <mxGeometry x="345.25" y="270" width="150.5" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="53">
+                <mxCell id="57" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="550" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;" edge="1" parent="1" source="60">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="630" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="53" value="Check if the user is rich" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="342" y="570" width="156" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="530" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="282.5" y="400" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="60">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="762.5" as="targetPoint"/>
+                        <mxPoint x="700" y="723" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="60" value="print(&quot;you can not&lt;br&gt;date my daughter&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="355.5" y="730" width="130" height="65" as="geometry"/>
+                    <mxGeometry x="355.5" y="690" width="130" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="438.5" y="680" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="438" y="640" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="75" target="28">
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="75" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="750" y="630" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="print(&quot;you can &lt;br&gt;date my daughter&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="510.5" y="597.5" width="130" height="65" as="geometry"/>
+                <mxCell id="75" value="print(&quot;you can &lt;br&gt;date my daughter&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="557.5" width="130" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="53" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Check if the user is rich" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="342.5" y="530" width="156" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;endArrow=none;" edge="1" parent="1" source="12" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="490" as="sourcePoint"/>
+                        <mxPoint x="420.5" y="730" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
