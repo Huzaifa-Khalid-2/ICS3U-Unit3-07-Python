@@ -12,7 +12,6 @@ def main():
     # and depending on their answeres it tells if they can date
     # the grandchild
 
-
     # input
     user_wealth = input("Are you rich?(yes or no): ")
     user_looking = input("Are you handsome?(yes or no): ")
@@ -20,9 +19,9 @@ def main():
 
     # process and output
     if user_wealth == "yes" or user_looking == "yes":
-        print("You can date my grandchild.")
+        print("You can date the grandchild.")
     elif user_wealth == "no" and user_looking == "no":
-        print("You can not date my grandchild.")
+        print("You can not date the grandchild.")
     else:
         print("Sorry big man I got nothing ¯\_(ツ)_/¯.")
         print("")
